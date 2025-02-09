@@ -394,6 +394,12 @@ Vip  :
 > After Attack Limit :10 sec
 -> Concurrents Attack : 5
 
+Pr-ice List :
+Day-->150 Rs
+3Day-->300 Rs
+Week-->600 Rs
+Month-->1500 Rs
+'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['admincmd'])

